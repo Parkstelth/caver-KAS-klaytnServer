@@ -13,7 +13,7 @@ Web3.js를 KAS에선 Caver를 사용하여 직접 요청을 보낼 수 있다.
 5. /deploy를 통해 json객체타입으로 전송받은 abi와 bytecode로 스마트컨트랙트를 배포 할 수 있다.
 
 <.env 설정>
-FROM_ADDRESS = ~ \n
+FROM_ADDRESS = ~
 PRIVATE_KEY = ~
 
 <req 요청조건>
