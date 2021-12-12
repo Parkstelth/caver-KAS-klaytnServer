@@ -20,8 +20,5 @@ PRIVATE_KEY = ~
 1. /getbalance => req.body.address : 잔고를 확인 할 주소
 2. /transfer => req.body.toAddress : 송금 받을 주소
                 req.body.amount : 보낼 토큰 양
-3. /deploy => JSON {
-                      "abi" : "~"
-                      "bytecode" : "~"
-                   }
+3. /deploy => req.body.abi , req.body.bytecode
 
